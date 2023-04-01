@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DBank</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" href="favicon.ico">
+  <link type="text/css" rel="stylesheet" href="main.css" />
+
+</head>
+
+<body>
+  <div class="container">
+    <img src="logo-black.png" alt="DBank logo" width="100" />
+    <h1>Current Balance: $<span id="value">234</span></h1>
+    <div class="divider"></div>
+    <form action="#">
+      <h2>Amount to Top Up</h2>
+      <input id="input-amount" type="number" step="0.01" min=0 name="topUp" value="" />
+      <h2>Amount to Withdraw</h2>
+      <input id="withdrawal-amount" type="number" name="withdraw" step="0.01" min=0 value="" />
+      <input id="submit-btn" type="submit" value="Finalise Transaction" />
+    </form>
+  </div>
+</body>
+
+</html>
